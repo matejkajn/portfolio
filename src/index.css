@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply text-[#252850];
+}
+
+h2 {
+    @apply text-5xl;
+    @apply my-[60px];
+    @apply font-semibold;
+    @apply leading-tight;
+}
